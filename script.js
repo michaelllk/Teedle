@@ -5,7 +5,7 @@ let visible = true;
 
 // Flashing button
 setInterval(() => {
-  button.style.display = visible ? 'block' : 'none';
+  button.style.visibility = visible ? 'visible' : 'hidden';
   visible = !visible;
 }, 1000);
 
