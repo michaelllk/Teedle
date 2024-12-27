@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+#button-container {
+  position: relative;
+}
+
+#button {
+  cursor: pointer;
+  display: block;
+}
+
+#jumpscare-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#jumpscare {
+  max-width: 100%;
+  max-height: 100%;
+}
