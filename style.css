@@ -19,11 +19,12 @@ body {
 
 #button-container {
   position: relative;
+  height: 100px; /* Ensure space is reserved for the button */
 }
 
 #button {
   cursor: pointer;
-  display: block;
+  visibility: visible;
 }
 
 #jumpscare-container {
